@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+    <style>
+        /* Add the CSS code here */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        p + p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Analysis Result</h1>
+    <p>Total number of rows: {{ total_rows }}</p>
+    <p>Number of unique UUIDs: {{ unique_uuids_count }}</p>
+    <p>Task level evidences: {{ task_level_evidence }}</p>
+</body>
+</html>
